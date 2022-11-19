@@ -34,5 +34,11 @@
          <image>
             <Image url="@W1/Маски.png" />
          </image></ImageView>
+      <ImageView fitHeight="50.0" fitWidth="39.0" layoutX="754.0" layoutY="7.0" opacity="0.66" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W1/Крест.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="B3" layoutX="760.0" layoutY="14.0" mnemonicParsing="false" opacity="0.0" prefHeight="25.0" prefWidth="26.0" text="." />
    </children>
 </Pane>

@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Okno6 extends Application {
+public class Okno11 extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Okno6.class.getResource("Window6.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 800, 400);
-        stage.setTitle("Комедия");
+        FXMLLoader fxmlLoader = new FXMLLoader(Okno11.class.getResource("Window2_1.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 500, 200);
+        stage.setTitle("Выход");
         stage.setScene(scene);
         stage.show();
     }

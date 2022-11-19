@@ -12,7 +12,7 @@ public class Okno8 extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Okno8.class.getResource("Window8.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
-        stage.setTitle("Драма и комедия");
+        stage.setTitle("Комедия");
         stage.setScene(scene);
         stage.show();
     }

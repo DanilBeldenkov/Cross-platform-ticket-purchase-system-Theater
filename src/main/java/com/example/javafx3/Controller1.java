@@ -2,9 +2,6 @@ package com.example.javafx3;
 
 
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -24,6 +21,9 @@ public class Controller1 {
 
     @FXML
     private Button B2;
+
+    @FXML
+    private Button B3;
 
     @FXML
     private ImageView I1;
@@ -46,6 +46,16 @@ public class Controller1 {
 
     @FXML
     void initialize() {
+        B3.setOnAction(e -> {
+            Okno11 okno11 = new Okno11();
+            try {
+                okno11.start(new Stage());
+                B3.getScene().getWindow().hide();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+        });
+
         B1.setOnAction(event -> {
             System.out.println("Логин: " + TF1.getText());
             System.out.println("Пароль: " + PF1.getText());
@@ -68,8 +78,7 @@ public class Controller1 {
                             e.printStackTrace();
                         }
                         System.out.println("Логин правильный");
-                    }
-                    else {
+                    } else {
                         Okno3 okno3 = new Okno3();
                         try {
                             okno3.start(new Stage());
@@ -97,8 +106,7 @@ public class Controller1 {
                             e.printStackTrace();
                         }
                         System.out.println("Пароль правильный");
-                    }
-                    else {
+                    } else {
                         Okno3 okno3 = new Okno3();
                         try {
                             okno3.start(new Stage());
@@ -116,7 +124,7 @@ public class Controller1 {
             }
         });
 
-         B2.setOnAction(e -> {
+        B2.setOnAction(e -> {
             Okno2 okno2 = new Okno2();
             try {
                 okno2.start(new Stage());
@@ -126,4 +134,5 @@ public class Controller1 {
             }
         });
     }
+
 }
