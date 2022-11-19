@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller1">
+   <children>
+      <ImageView fx:id="I2" fitHeight="513.0" fitWidth="816.0" layoutX="-10.0" layoutY="-108.0">
+         <image>
+            <Image url="@W1/Сцена.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="171.0" layoutX="315.0" layoutY="47.0">
+         <image>
+            <Image url="@W1/Рамка.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="TF1" layoutX="284.0" layoutY="198.0" prefHeight="25.0" prefWidth="232.0" promptText="Login" style="-fx-background-radius: 5;" />
+      <PasswordField fx:id="PF1" layoutX="284.0" layoutY="233.0" prefHeight="25.0" prefWidth="232.0" promptText="Password" style="-fx-background-radius: 5;" />
+      <Button fx:id="B1" layoutX="284.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="84.0" text="Вход" />
+      <Button fx:id="B2" layoutX="431.0" layoutY="273.0" mnemonicParsing="false" text="Регистрация" />
+      <Label fx:id="L1" layoutX="289.0" layoutY="67.0" prefHeight="60.0" prefWidth="224.0" text="Драма и комедия" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe Print" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="I1" fitHeight="60.0" fitWidth="92.0" layoutX="354.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W1/Маски.png" />
+         </image></ImageView>
+   </children>
+</Pane>

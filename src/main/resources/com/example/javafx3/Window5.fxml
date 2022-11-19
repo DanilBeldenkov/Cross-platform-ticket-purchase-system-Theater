@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller5">
+   <children>
+      <ButtonBar fx:id="BB1" layoutX="79.0" layoutY="89.0" prefHeight="223.0" prefWidth="619.0">
+        <buttons>
+            <ImageView fx:id="I1" fitHeight="223.0" fitWidth="330.0">
+               <image>
+                  <Image url="@W5_7/Афиша.jpg" />
+               </image>
+            </ImageView>
+          <Button fx:id="B1" mnemonicParsing="false" prefHeight="25.0" text="Узнать больше" />
+        </buttons>
+      </ButtonBar>
+      <ImageView fx:id="I2" fitHeight="150.0" fitWidth="200.0" layoutX="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W5_7/Свет.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

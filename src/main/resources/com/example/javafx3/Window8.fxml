@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller8">
+   <children>
+      <Button fx:id="B2" layoutX="712.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Вернуться" />
+      <ImageView fx:id="I1" fitHeight="186.0" fitWidth="183.0" layoutX="14.0" layoutY="15.0">
+         <image>
+            <Image url="@W6_8/Афиша.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="TA1" layoutX="12.0" layoutY="209.0" prefHeight="171.0" prefWidth="773.0" text="&quot;СВАДЬБА КРЕЧИНСКОГО&quot;&#10;Комедия в двух действиях&#10;Продолжительность спектакля 2 ч 30 мин&#10;Цена :1200 руб.&#10;Премьера состаится 2 апреля 2019&#10;В семействе Муромских не стихают споры и ссоры: отец юной Лидочки, добропорядочный помещик Петр Константиныч видит будущее своей дочери в тихой деревенской идиллии, а ее тетка Анна Антоновна Атуева — ярая сторонница шумной московской жизни. &#10;А тут еще объявляется жених — пусть не первой молодости, но блестящий и обаятельный великосветский господин Михаил Васильич Кречинский, в которого Лидочка к тому же, кажется, влюблена до безумия. &#10;Впрочем, есть и еще один претендент на ее руку — молодой помещик Владимир Дмитрич Нелькин, но он для Лидочки — всего лишь друг семьи. И вообще всё не просто в этой почти детективной истории. &#10;Кто есть кто на самом деле? И как разрешится этот любовный треугольник?" />
+      <Button fx:id="B1" layoutX="618.0" layoutY="157.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="167.0" text="Заказать билеты" />
+      <ImageView fx:id="I2" fitHeight="114.0" fitWidth="167.0" layoutX="366.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W5_7/Маски.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
