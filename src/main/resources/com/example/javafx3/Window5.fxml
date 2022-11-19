@@ -23,5 +23,10 @@
             <Image url="@W5_7/Свет.png" />
          </image>
       </ImageView>
+      <ImageView fitHeight="540.0" fitWidth="892.0" layoutX="-47.0" layoutY="-36.0">
+         <image>
+            <Image url="@W5_7/Сиденья.png" />
+         </image>
+      </ImageView>
    </children>
 </Pane>
