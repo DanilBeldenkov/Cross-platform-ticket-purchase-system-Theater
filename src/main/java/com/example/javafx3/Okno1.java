@@ -1,4 +1,4 @@
-package com.example.teatr;
+package com.example.javafx3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,10 +7,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Okno4 extends Application {
+public class Okno1 extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Okno4.class.getResource("Window4_1.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Okno1.class.getResource("Window1.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 400);
         stage.setTitle("Драма и комедия");
         stage.setScene(scene);

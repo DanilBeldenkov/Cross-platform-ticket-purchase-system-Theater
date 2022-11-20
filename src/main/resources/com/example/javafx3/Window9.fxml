@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.teatr.Controller9">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller9">
    <children>
       <Button fx:id="B1" layoutX="714.0" layoutY="361.0" mnemonicParsing="false" text="Вернуться" />
       <TextArea fx:id="TA1" layoutX="253.0" layoutY="165.0" prefHeight="71.0" prefWidth="497.0" text="Телефон для связи: +7-937-416-33-74&#10;Контактное лицо: Фролов Михаил Владимирович">
