@@ -1,17 +1,15 @@
-package com.example.javafx3;
+package com.example.teatr;
+
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.ButtonBar;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
-import javafx.scene.control.TextArea;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
-import java.io.FileOutputStream;
+
 import java.io.IOException;
 
-public class Controller7 {
+public class Controller4 {
 
     @FXML
     private Button B1;
@@ -26,24 +24,25 @@ public class Controller7 {
     private ImageView I2;
 
     @FXML
-    private TextArea TA1;
+    private Label L1;
 
     @FXML
     void initialize() {
-        B1.setOnAction(event -> {
-            Okno9 okno9 = new Okno9();
+
+        B1.setOnAction(e -> {
+            Okno5 okno5 = new Okno5();
             try {
-                okno9.start(new Stage());
+                okno5.start(new Stage());
                 B1.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
         });
 
-        B2.setOnAction(event -> {
-            Okno5 okno5 = new Okno5();
+        B2.setOnAction(e -> {
+            Okno6 okno6 = new Okno6();
             try {
-                okno5.start(new Stage());
+                okno6.start(new Stage());
                 B2.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
@@ -51,3 +50,4 @@ public class Controller7 {
         });
     }
 }
+

@@ -1,4 +1,4 @@
-package com.example.javafx3;
+package com.example.teatr;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

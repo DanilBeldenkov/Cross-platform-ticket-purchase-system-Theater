@@ -1,4 +1,4 @@
-package com.example.javafx3;
+package com.example.teatr;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

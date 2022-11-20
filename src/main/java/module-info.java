@@ -4,6 +4,6 @@ module com.example.javafx3 {
     requires java.sql;
 
 
-    opens com.example.javafx3 to javafx.fxml;
-    exports com.example.javafx3;
+    opens com.example.teatr to javafx.fxml;
+    exports com.example.teatr;
 }
