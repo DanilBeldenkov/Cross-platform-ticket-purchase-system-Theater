@@ -63,37 +63,12 @@ public class Controller1 {
             try {
                 BufferedReader reader1 = new BufferedReader(new FileReader("D:\\Projects\\IntelliJIDEAProjects\\JavaFX3\\src\\inputlogin.txt")) {
                 };
-                String line1;
-                while ((line1 = reader1.readLine()) != null) {
-                    if (line1.equals(TF1.getText().trim())) {
-                        try {
-                            Okno4 okno4 = new Okno4();
-                            try {
-                                okno4.start(new Stage());
-                                B1.getScene().getWindow().hide();
-                            } catch (IOException ex) {
-                                throw new RuntimeException(ex);
-                            }
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                        System.out.println("Логин правильный");
-                    } else {
-                        Okno3 okno3 = new Okno3();
-                        try {
-                            okno3.start(new Stage());
-                        } catch (IOException ex) {
-                            throw new RuntimeException(ex);
-                        }
-                        System.out.println("Логин неправильный");
-                    }
-                }
-
                 BufferedReader reader2 = new BufferedReader(new FileReader("D:\\Projects\\IntelliJIDEAProjects\\JavaFX3\\src\\inputpass.txt")) {
                 };
+                String line1;
                 String line2;
-                while ((line2 = reader2.readLine()) != null) {
-                    if (line2.equals(PF1.getText().trim())) {
+                while ((line1 = reader1.readLine()) != null && (line2 = reader2.readLine()) != null) {
+                    if (line1.equals(TF1.getText().trim()) && line2.equals(PF1.getText().trim())) {
                         try {
                             Okno4 okno4 = new Okno4();
                             try {
@@ -105,7 +80,7 @@ public class Controller1 {
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-                        System.out.println("Пароль правильный");
+                        System.out.println("Авторизация правильная");
                     } else {
                         Okno3 okno3 = new Okno3();
                         try {
@@ -113,7 +88,7 @@ public class Controller1 {
                         } catch (IOException ex) {
                             throw new RuntimeException(ex);
                         }
-                        System.out.println("Пароль неправильный");
+                        System.out.println("Авторизация неправильная");
                     }
                 }
 
