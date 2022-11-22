@@ -47,7 +47,7 @@ public class Controller1 {
     @FXML
     void initialize() {
         B3.setOnAction(e -> {
-            Okno11 okno11 = new Okno11();
+            Okno2_1 okno11 = new Okno2_1();
             try {
                 okno11.start(new Stage());
                 B3.getScene().getWindow().hide();

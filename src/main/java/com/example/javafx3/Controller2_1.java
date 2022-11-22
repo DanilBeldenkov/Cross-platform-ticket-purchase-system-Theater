@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Controller11 {
+public class Controller2_1 {
 
     @FXML
     private Button B1;
