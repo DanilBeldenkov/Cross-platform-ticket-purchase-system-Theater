@@ -52,9 +52,9 @@ public class Controller2 {
     @FXML
     void initialize(){
         B1.setOnAction(e -> {
-            Okno1 okno1 = new Okno1();
+            Window1 window1 = new Window1();
             try {
-                okno1.start(new Stage());
+                window1.start(new Stage());
                 B1.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);

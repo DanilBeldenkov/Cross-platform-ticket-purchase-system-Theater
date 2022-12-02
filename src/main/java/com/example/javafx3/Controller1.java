@@ -47,7 +47,7 @@ public class Controller1 {
     @FXML
     void initialize() {
         B3.setOnAction(e -> {
-            Okno2_1 okno11 = new Okno2_1();
+            Window1_2 okno11 = new Window1_2();
             try {
                 okno11.start(new Stage());
                 B3.getScene().getWindow().hide();
@@ -70,9 +70,9 @@ public class Controller1 {
                 while ((line1 = reader1.readLine()) != null && (line2 = reader2.readLine()) != null) {
                     if (line1.equals(TF1.getText().trim()) && line2.equals(PF1.getText().trim())) {
                         try {
-                            Okno4 okno4 = new Okno4();
+                            Window3 window3 = new Window3();
                             try {
-                                okno4.start(new Stage());
+                                window3.start(new Stage());
                                 B1.getScene().getWindow().hide();
                             } catch (IOException ex) {
                                 throw new RuntimeException(ex);
@@ -82,9 +82,9 @@ public class Controller1 {
                         }
                         System.out.println("Авторизация правильная");
                     } else {
-                        Okno3 okno3 = new Okno3();
+                        Window1_1 window12 = new Window1_1();
                         try {
-                            okno3.start(new Stage());
+                            window12.start(new Stage());
                         } catch (IOException ex) {
                             throw new RuntimeException(ex);
                         }
@@ -100,9 +100,9 @@ public class Controller1 {
         });
 
         B2.setOnAction(e -> {
-            Okno2 okno2 = new Okno2();
+            Window2 window2 = new Window2();
             try {
-                okno2.start(new Stage());
+                window2.start(new Stage());
                 B2.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);

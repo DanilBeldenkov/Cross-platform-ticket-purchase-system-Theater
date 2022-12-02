@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller7">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button fx:id="B2" layoutX="712.0" layoutY="15.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" text="Вернуться" />
-      <ImageView fx:id="I1" fitHeight="186.0" fitWidth="279.0" layoutX="14.0" layoutY="15.0">
+      <ImageView fx:id="I1" fitHeight="261.0" fitWidth="295.0" layoutX="70.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@W5_7/Афиша.jpg" />
+            <Image url="@W7/qr-code.gif" />
          </image>
       </ImageView>
-      <TextArea fx:id="TA1" layoutX="12.0" layoutY="209.0" prefHeight="171.0" prefWidth="773.0" text="&quot;Валентин и Валентина&quot;&#10;Драма в двух действиях&#10;Цена :1600 руб.&#10;Продолжительность спектакля 2 ч 40 мин.&#10;Премьера состоится 14 февраля 2021&#10;Есть два юных существа — Он и Она, которые жить друг без друга не могут.&#10;Но есть ещё их родные, близкие, знакомые и просто посторонние люди, и не все они в восторге от этих отношений. А наши герои, несмотря ни на что, больше всего на свете хотят быть вместе. Такие вот практически Ромео и Джульетта, только живут они не в средневековой Вероне, а в нашей стране, и не так уж давно — каких-то полвека назад...&#10;Лирическая драма Михаила Рощина «Валентин и Валентина» буквально прогремела в 1970-е годы и до сих пор, пожалуй, остается одним из самых глубоких и пронзительных произведений отечественной литературы о первой любви. Несмотря на то, что наши взгляды на многие вещи сегодня сильно изменились, история про любовь двух юных душ и про непростое отношение к этому окружающих доныне способна тронуть сердца зрителей самого разного возраста." />
-      <Button fx:id="B1" layoutX="618.0" layoutY="157.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="167.0" text="Заказать билеты" />
-      <ImageView fx:id="I2" fitHeight="114.0" fitWidth="167.0" layoutX="366.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@W5_7/Маски.png" />
-         </image>
-      </ImageView>
+      <Button fx:id="B1" layoutX="174.0" layoutY="349.0" mnemonicParsing="false" text="OK" />
+      <Label fx:id="L1" layoutX="176.0" layoutY="31.0" text="Label" />
    </children>
 </Pane>
