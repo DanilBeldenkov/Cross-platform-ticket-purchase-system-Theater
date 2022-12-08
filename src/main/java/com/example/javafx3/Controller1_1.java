@@ -23,10 +23,9 @@ public class Controller1_1 {
     private Label L3;
 
     @FXML
-    void initialize(){
-            B1.setOnAction(e -> {
-                    B1.getScene().getWindow().hide();
-            });
-        }
-
+    void initialize() {
+        B1.setOnAction(e -> {
+            B1.getScene().getWindow().hide();
+        });
+    }
 }

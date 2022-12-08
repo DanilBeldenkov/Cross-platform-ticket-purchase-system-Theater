@@ -28,9 +28,9 @@ public class Controller5_1 {
     @FXML
     void initialize() {
         B1.setOnAction(event -> {
-            Window7_1 window61 = new Window7_1();
+            Window6 window6 = new Window6();
             try {
-                window61.start(new Stage());
+                window6.start(new Stage());
                 B1.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
