@@ -18,6 +18,9 @@ public class Controller3 {
     private Button B2;
 
     @FXML
+    private Button B3;
+
+    @FXML
     private ImageView I1;
 
     @FXML
@@ -37,6 +40,7 @@ public class Controller3 {
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
+            System.out.println("Выбран жанр Драма");
         });
 
         B2.setOnAction(e -> {
@@ -47,6 +51,7 @@ public class Controller3 {
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
+            System.out.println("Выбран жанр Комедия");
         });
     }
 }

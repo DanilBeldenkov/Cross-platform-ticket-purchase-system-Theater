@@ -9,14 +9,24 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller3">
    <children>
-      <ImageView fx:id="I1" fitHeight="430.0" fitWidth="921.0" layoutX="-62.0" layoutY="-30.0">
+      <ImageView fitHeight="29.0" fitWidth="44.0" layoutX="696.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@W3/Шторы%20К.png" />
+            <Image url="@W3/Вопрос.png" />
          </image>
       </ImageView>
-      <Label fx:id="L1" layoutX="228.0" layoutY="75.0" text="Выберите жанр представления">
+      <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="685.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W3/Рамка.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="I1" fitHeight="430.0" fitWidth="867.0" layoutX="-32.0" layoutY="-1.0">
+         <image>
+            <Image url="@W3/Шторы%20С.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="L1" layoutX="200.0" layoutY="88.0" text="Выберите жанр представления">
          <font>
-            <Font size="24.0" />
+            <Font name="Segoe Print" size="24.0" />
          </font>
       </Label>
       <Button fx:id="B2" layoutX="518.0" layoutY="245.0" mnemonicParsing="false" text="Комедия">
@@ -29,9 +39,15 @@
             <Font size="20.0" />
          </font>
       </Button>
-      <ImageView fx:id="I2" fitHeight="150.0" fitWidth="200.0" layoutX="325.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="I2" fitHeight="150.0" fitWidth="200.0" layoutX="325.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@W3/Маска.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="B3" layoutX="685.0" layoutY="329.0" mnemonicParsing="false" opacity="0.0" prefHeight="44.0" prefWidth="44.0" />
+      <ImageView fx:id="I3" fitHeight="135.0" fitWidth="182.0" layoutX="309.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@W3/Окантовка.png" />
          </image>
       </ImageView>
    </children>
