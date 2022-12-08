@@ -5,6 +5,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller7">
    <children>
@@ -13,7 +14,10 @@
             <Image url="@W7/qr-code.gif" />
          </image>
       </ImageView>
-      <Button fx:id="B1" layoutX="174.0" layoutY="349.0" mnemonicParsing="false" text="OK" />
-      <Label fx:id="L1" layoutX="176.0" layoutY="31.0" text="Label" />
+      <Button fx:id="B1" layoutX="184.0" layoutY="349.0" mnemonicParsing="false" text="OK" />
+      <Label fx:id="L1" layoutX="143.0" layoutY="26.0" prefHeight="25.0" prefWidth="115.0" text="Ваш QR-code">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
    </children>
 </Pane>
