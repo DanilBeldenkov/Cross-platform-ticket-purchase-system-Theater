@@ -38,9 +38,9 @@ public class Controller5_2 {
         });
 
         B2.setOnAction(event -> {
-            Window4_2 window42 = new Window4_2();
+            Window4_2 window4_2 = new Window4_2();
             try {
-                window42.start(new Stage());
+                window4_2.start(new Stage());
                 B2.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);

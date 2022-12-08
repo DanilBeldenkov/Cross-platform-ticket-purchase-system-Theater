@@ -9,32 +9,22 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller3">
    <children>
-      <ImageView fitHeight="29.0" fitWidth="44.0" layoutX="696.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@W3/Вопрос.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="44.0" fitWidth="45.0" layoutX="685.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@W3/Рамка.png" />
-         </image>
-      </ImageView>
       <ImageView fx:id="I1" fitHeight="430.0" fitWidth="867.0" layoutX="-32.0" layoutY="-1.0">
          <image>
             <Image url="@W3/Шторы С.png" />
          </image>
       </ImageView>
-      <Label fx:id="L1" layoutX="200.0" layoutY="88.0" text="Выберите жанр представления">
+      <Label fx:id="L2" layoutX="113.0" layoutY="199.0" lineSpacing="3.0" prefHeight="74.0" prefWidth="212.0" text="Выберите жанр" textAlignment="CENTER">
          <font>
             <Font name="Segoe Print" size="24.0" />
          </font>
       </Label>
-      <Button fx:id="B2" layoutX="518.0" layoutY="245.0" mnemonicParsing="false" text="Комедия">
+      <Button fx:id="B2" layoutX="518.0" layoutY="293.0" mnemonicParsing="false" text="Комедия">
          <font>
             <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="B1" layoutX="175.0" layoutY="245.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" text="Драма">
+      <Button fx:id="B1" layoutX="518.0" layoutY="214.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="106.0" text="Драма">
          <font>
             <Font size="20.0" />
          </font>
@@ -44,11 +34,20 @@
             <Image url="@W3/Маска.png" />
          </image>
       </ImageView>
-      <Button fx:id="B3" layoutX="685.0" layoutY="329.0" mnemonicParsing="false" opacity="0.0" prefHeight="44.0" prefWidth="44.0" />
       <ImageView fx:id="I3" fitHeight="135.0" fitWidth="182.0" layoutX="309.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@W3/Окантовка.png" />
          </image>
       </ImageView>
+      <Label fx:id="L1" layoutX="276.0" layoutY="95.0" text="&quot;Драма и Комедия&quot;">
+         <font>
+            <Font name="Segoe Print" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="L3" layoutX="113.0" layoutY="241.0" lineSpacing="3.0" prefHeight="74.0" prefWidth="212.0" text="представления" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe Print" size="24.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

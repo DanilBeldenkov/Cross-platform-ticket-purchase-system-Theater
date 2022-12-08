@@ -18,9 +18,6 @@ public class Controller3 {
     private Button B2;
 
     @FXML
-    private Button B3;
-
-    @FXML
     private ImageView I1;
 
     @FXML
@@ -30,12 +27,18 @@ public class Controller3 {
     private Label L1;
 
     @FXML
+    private Label L2;
+
+    @FXML
+    private Label L3;
+
+    @FXML
     void initialize() {
 
         B1.setOnAction(e -> {
-            Window4_1 okno41 = new Window4_1();
+            Window4_1 okno4_1 = new Window4_1();
             try {
-                okno41.start(new Stage());
+                okno4_1.start(new Stage());
                 B1.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
@@ -44,15 +47,17 @@ public class Controller3 {
         });
 
         B2.setOnAction(e -> {
-            Window4_2 window42 = new Window4_2();
+            Window4_2 window4_2 = new Window4_2();
             try {
-                window42.start(new Stage());
+                window4_2.start(new Stage());
                 B2.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
             System.out.println("Выбран жанр Комедия");
         });
+
     }
+
 }
 
