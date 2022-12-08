@@ -199,7 +199,7 @@
       <Button fx:id="B2" layoutX="736.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="50.0" text="Назад" />
       <ImageView fx:id="I1" fitHeight="66.0" fitWidth="498.0" layoutX="151.0" layoutY="16.0">
          <image>
-            <Image url="@W6/Проект%20сцены.png" />
+            <Image url="@W6/Проект сцены.png" />
          </image>
       </ImageView>
       <ImageView fx:id="I2" fitHeight="98.0" fitWidth="107.0" layoutX="683.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">

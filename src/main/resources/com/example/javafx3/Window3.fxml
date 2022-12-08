@@ -21,7 +21,7 @@
       </ImageView>
       <ImageView fx:id="I1" fitHeight="430.0" fitWidth="867.0" layoutX="-32.0" layoutY="-1.0">
          <image>
-            <Image url="@W3/Шторы%20С.png" />
+            <Image url="@W3/Шторы С.png" />
          </image>
       </ImageView>
       <Label fx:id="L1" layoutX="200.0" layoutY="88.0" text="Выберите жанр представления">
