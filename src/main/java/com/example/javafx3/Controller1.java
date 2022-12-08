@@ -47,9 +47,11 @@ public class Controller1 {
     @FXML
     void initialize() {
         B3.setOnAction(e -> {
-            Window1_2 okno11 = new Window1_2();
+            System.out.println("Выход из приложения");
+
+            Window1_2 okno1_2 = new Window1_2();
             try {
-                okno11.start(new Stage());
+                okno1_2.start(new Stage());
                 B3.getScene().getWindow().hide();
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
@@ -82,9 +84,9 @@ public class Controller1 {
                         }
                         System.out.println("Авторизация правильная");
                     } else {
-                        Window1_1 window12 = new Window1_1();
+                        Window1_1 window1_1 = new Window1_1();
                         try {
-                            window12.start(new Stage());
+                            window1_1.start(new Stage());
                         } catch (IOException ex) {
                             throw new RuntimeException(ex);
                         }
@@ -100,6 +102,8 @@ public class Controller1 {
         });
 
         B2.setOnAction(e -> {
+            System.out.println("Регистрация");
+
             Window2 window2 = new Window2();
             try {
                 window2.start(new Stage());

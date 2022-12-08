@@ -24,6 +24,7 @@ public class Controller1_1 {
 
     @FXML
     void initialize() {
+        System.out.println("Ошибка авторизации");
         B1.setOnAction(e -> {
             B1.getScene().getWindow().hide();
         });

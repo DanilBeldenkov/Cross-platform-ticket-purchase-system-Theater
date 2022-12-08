@@ -19,7 +19,9 @@ public class Controller1_2 {
     void initialize(){
         B1.setOnAction(e -> {
             B1.getScene().getWindow().hide();
+            System.out.println("Выход из системы");
         });
+
 
         B2.setOnAction(e -> {
             Window1 window1 = new Window1();
