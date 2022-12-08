@@ -14,6 +14,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
+
 public class Controller1 {
 
     @FXML
@@ -46,6 +47,7 @@ public class Controller1 {
 
     @FXML
     void initialize() {
+
         B3.setOnAction(e -> {
             System.out.println("Выход из приложения");
 
@@ -99,6 +101,7 @@ public class Controller1 {
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
+
         });
 
         B2.setOnAction(e -> {

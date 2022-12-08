@@ -5,7 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.FileReader;
 import java.io.IOException;
+
 
 public class Window2 extends Application {
     @Override

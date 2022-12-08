@@ -59,6 +59,7 @@ public class Controller2 {
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
+            System.out.println("Авторизация");
         });
 
         B2.setOnAction(clik -> {
