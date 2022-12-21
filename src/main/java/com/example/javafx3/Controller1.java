@@ -104,7 +104,9 @@ public class Controller1 {
 
         });
 
+
         B2.setOnAction(e -> {
+
             System.out.println("Регистрация");
 
             Window2 window2 = new Window2();
