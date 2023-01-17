@@ -18,11 +18,6 @@ public class Controller2 {
     private Button B2;
 
     @FXML
-    private Button B3;
-    @FXML
-    private Button B4;
-
-    @FXML
     private ImageView I1;
 
     @FXML
@@ -72,9 +67,7 @@ public class Controller2 {
             } catch (Exception e) {
                 System.out.println("Имя не удалось сохранить");
             }
-        });
 
-        B3.setOnAction(clik -> {
             try {
                 String line=(TF2.getText());
                 FileOutputStream fileOutputStream =new FileOutputStream("D:\\Projects\\IntelliJIDEAProjects\\JavaFX3\\src\\inputlogin.txt");
@@ -84,9 +77,7 @@ public class Controller2 {
             } catch (Exception e) {
                 System.out.println("Логин не удалось сохранить");
             }
-        });
 
-        B4.setOnAction(clik -> {
             try {
                 String line=(TF3.getText());
                 FileOutputStream fileOutputStream =new FileOutputStream("D:\\Projects\\IntelliJIDEAProjects\\JavaFX3\\src\\inputpass.txt");

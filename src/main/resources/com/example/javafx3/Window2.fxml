@@ -10,15 +10,15 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx3.Controller2">
    <children>
-      <TextField fx:id="TF1" layoutX="221.0" layoutY="171.0" prefHeight="25.0" prefWidth="287.0" promptText="Name" />
-      <TextField fx:id="TF2" layoutX="221.0" layoutY="208.0" prefHeight="25.0" prefWidth="287.0" promptText="Login" />
-      <Button fx:id="B1" layoutX="334.0" layoutY="297.0" mnemonicParsing="false" text="Зарегистрироваться" />
+      <TextField fx:id="TF1" layoutX="226.0" layoutY="171.0" prefHeight="25.0" prefWidth="333.0" promptText="Name" />
+      <TextField fx:id="TF2" layoutX="226.0" layoutY="208.0" prefHeight="25.0" prefWidth="333.0" promptText="Login" />
+      <Button fx:id="B1" layoutX="333.0" layoutY="321.0" mnemonicParsing="false" text="Зарегистрироваться" />
       <Label fx:id="L1" layoutX="284.0" layoutY="81.0" text="Регистрация">
          <font>
             <Font size="38.0" />
          </font>
       </Label>
-      <TextField fx:id="TF3" layoutX="221.0" layoutY="242.0" prefHeight="25.0" prefWidth="287.0" promptText="Password" />
+      <TextField fx:id="TF3" layoutX="226.0" layoutY="242.0" prefHeight="25.0" prefWidth="333.0" promptText="Password" />
       <ImageView fx:id="I1" fitHeight="75.0" fitWidth="75.0" layoutX="247.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@W2/Обломок.png" />
@@ -44,8 +44,6 @@
             <Image url="@W2/Прожектора.png" />
          </image>
       </ImageView>
-      <Button fx:id="B2" layoutX="508.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Save" />
-      <Button fx:id="B3" layoutX="508.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Save" />
-      <Button fx:id="B4" layoutX="508.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="Save" />
+      <Button fx:id="B2" layoutX="333.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" text="Save" />
    </children>
 </Pane>
